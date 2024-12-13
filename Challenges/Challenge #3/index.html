@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bleach Anime Fan Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>Bleach Fansite</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#powers">Powers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to the Bleach Anime Fansite</h2>
+            <p>Bleach is a popular Japanese anime that follows Ichigo Kurosaki, a teenager with the ability to see ghosts. Join us as we explore characters, their powers, and more!</p>
+        </section>
+
+        <!-- Characters Section -->
+        <section id="characters">
+            <h2>Featured Characters</h2>
+            <div class="character-grid">
+                <div class="character">
+                    <h3>Ichigo Kurosaki</h3>
+                    <p>Ichigo becomes a Soul Reaper and is known for his incredible fighting abilities and strong sense of justice.</p>
+                </div>
+                <div class="character">
+                    <h3>Rukia Kuchiki</h3>
+                    <p>Rukia is a skilled Soul Reaper who teaches Ichigo the ways of the Soul Society.</p>
+                </div>
+                <div class="character">
+                    <h3>Renji Abarai</h3>
+                    <p>Renji is a Soul Reaper who wields the powerful Zabimaru sword.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Powers Section -->
+        <section id="powers">
+            <h2>Powers and Abilities</h2>
+            <p>The Bleach universe is filled with amazing powers and abilities. Some of the most prominent are:</p>
+            <ul>
+                <li><strong>Bankai</strong>: A Soul Reaper’s ultimate power.</li>
+                <li><strong>Hollowfication</strong>: When a Soul Reaper’s inner Hollow emerges.</li>
+                <li><strong>Kidō</strong>: Powerful spells used by Soul Reapers.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear your thoughts, feedback, and suggestions!</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required />
+                <br />
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required />
+                <br />
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br />
+
+                <input type="submit" value="Send Feedback" />
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Bleach Anime Fansite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
